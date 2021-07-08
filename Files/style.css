@@ -85,8 +85,9 @@ hr{
 }
 
 .facebook__{
-    margin-left: 1.5rem;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right:1rem;
 }
 .cards_img__{
     height:160px;
@@ -11738,6 +11739,9 @@ video {
     }
     .md\:flex {
         display: flex
+    }
+    .md\:flex-row {
+        flex-direction: row
     }
     .md\:hidden {
         display: none
