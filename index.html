@@ -1,0 +1,442 @@
+<html lang="en" class="light" id="myDIV">
+<!-- BEGIN: Head -->
+
+<head>
+    <style>
+        
+    </style>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Files/preloader.css">
+    <link rel="stylesheet" href="Files/style.css">
+    <!-- BEGIN: CSS Assets-->
+    <!-- END: CSS Assets-->
+    <style type="text/css">  
+           
+    </style>
+    <style></style>
+    <link rel="stylesheet" data-cke="true" href="Files/style2.css"></style>
+    <link href="Files/head.html">
+    <title>Student Alumni Website</title>
+    <link rel="icon" href="images/logo_sac.png" type = "image/x-icon">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/util.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/map.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/marker.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/overlay.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/infowindow.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/stats.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/onion.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/42/9/controls.js"></script>
+</head>
+<!-- END: Head -->
+
+<body class="main" onload="fun();">
+    <div class="page-loader">
+        <div class="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    <!-- BEGIN: Mobile Menu -->
+    <div class="mobile-menu lg:hidden">
+        <div class="mobile-menu-bar">
+            <a href="" class="flex mr-auto ">
+                <img alt="Logo" class="w-16 mt-0.5 mb-1" src="images/logo_sac.png">
+                <span class="cell-text text-white text-lg py-5 px-2" style="align-items:center;font-size: 15px;"> Student Alumni Cell <span class="text__"style="font-size: 15px;">IIT Bhilai</span></span>
+            </a>
+            <a href="javascript:;" id="mobile-menu-toggler"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 w-8 h-8 text-white transform -rotate-90"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> </a>
+        </div>
+        <ul class="border-t border-theme-21 py-5 hidden">
+            <li>
+                <a href=" " class="menu menu--active">
+                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> </div>
+                    <div class="menu__title"> Home </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/gallery.html" class="menu">
+                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg> </div>
+                    <div class="menu__title"> Gallery </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/about.html" class="menu">
+                    <div class="menu__icon">  <i data-feather="activity"></i> </div>
+                    <div class="menu__title"> About Us </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/events.html" class="menu">
+                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>  </div>
+                    <div class="menu__title"> News and Events</div>
+                </a>
+            </li>
+            
+            <li>
+                <a href="javascript:;" class="menu">
+                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg></i> </div>
+                    <div class="menu__title">Initiatives<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down menu__sub-icon "><polyline points="6 9 12 15 18 9"></polyline></svg> </div>
+                </a>
+                <ul class="">
+                    <li>
+                        <a href="Files/lounge.html" class="menu">
+                            <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="menu__title">Leader's Lounge </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/masterclass.html" class="menu">
+                            <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="menu__title"> Alumni MasterClass </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/yearbook.html" class="menu">
+                            <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></i> </div>
+                            <div class="menu__title"> Yearbook </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;" class="menu">
+                    <div class="menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hard-drive"><line x1="22" y1="12" x2="2" y2="12"></line><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path><line x1="6" y1="16" x2="6.01" y2="16"></line><line x1="10" y1="16" x2="10.01" y2="16"></line></svg> </div>
+                    <div class="menu__title"> Contact Us<i data-feather="chevron-down" class="menu__sub-icon"></i> </div>
+                </a>
+                <ul class="">
+                    <li>
+                        <a href="Files/contact.html" class="menu">
+                            <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="menu__title">SAC Team </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/academic.html" class="menu">
+                            <div class="menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="menu__title"> Academic Office</div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- END: Mobile Menu -->
+    <!-- BEGIN: Top Bar -->
+    <div class="-mt-10 md:-mt-5 -mx-3 sm:-mx-8 px-3 sm:px-8 pt-3 md:pt-0 mb-2 top-bar-menu">
+        <div class="top-bar-boxed flex items-center">
+            <!-- BEGIN: Logo -->
+            <img class="w-20 mt-3 ml-5" src="../images/Logo_IIT_Bhilai.png" alt="">
+            <img alt="Logo" class="w-18 mt-3 mb-1 ml-2" src="images/logo_sac.png">
+            <a href="" class="-intro-x hidden md:flex mr-auto px-10">
+                <center><span class="text-white text-3xl font-medium" style="align-items:center"> Student Alumni Cell <br></span><span  class="text-white mt-4 text-xl">Indian Institute of Technology Bhilai</span></center>
+            </a>
+            <!-- END: Logo -->
+            <!-- BEGIN: Search -->
+            <div class="intro-x relative sm:mr-6  icons__">
+                <div class="hidden sm:block">
+                    <div class="mt-1 text-white">
+                        <h5 class="center text-base ">Get in contact with Student Alumni Cell</h5>
+                        <ul style="display: flex;justify-content: center;" class=" icons__ mt-2">
+                          <li><a href="mailto:sac@iitbhilai.ac.in"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail block mx-auto block mx-auto"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a></li>
+                          <li><a href="https://www.facebook.com/sac.iitbh/"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook block mx-auto block mx-auto"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
+                          <li><a href="https://www.linkedin.com/in/student-alumni-cell-iit-bhilai-24b751202/"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin block mx-auto block mx-auto"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+                          <li><a href="https://www.instagram.com/sac.iitbh/"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram block mx-auto block mx-auto"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+                          <li><a href="https://www.youtube.com/channel/UC1KpM0zbMH6rcWuUtHcvPrQ/"><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube block mx-auto block mx-auto"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <!-- END: Search -->
+        </div>
+    </div>
+    
+    <!-- END: Top Bar -->
+    <!-- BEGIN: Top Menu -->
+    <nav class="top-nav ">
+        <ul class="border-t border-theme-21" style="padding-top: 6px; padding-top: 4px;">
+            <li>
+                <a href="../index.html" class="top-menu top-menu--active">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div>
+                    <div class="top-menu__title"> Home </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/gallery.html" class="top-menu">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg> </div>
+                    <div class="top-menu__title"> Gallery </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/about.html" class="top-menu">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> </div>
+                    <div class="top-menu__title"> About Us  </div>
+                </a>
+            </li>
+            <li>
+                <a href="Files/events.html" class="top-menu">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg> </div>
+                    <div class="top-menu__title"> News and Events </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;.html" class="top-menu">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg></i> </div>
+                    <div class="top-menu__title">Initiatives<i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                </a>
+                <ul class="top-menu__sub-open">
+                    <li>
+                        <a href="Files/lounge.html" class="top-menu">
+                            <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="top-menu__title">Leader's Lounge </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/masterclass.html" class="top-menu">
+                            <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="top-menu__title"> Alumni MasterClass </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/yearbook.html" class="top-menu">
+                            <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></i> </div>
+                            <div class="top-menu__title"> Yearbook </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;" class="top-menu">
+                    <div class="top-menu__icon"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hard-drive"><line x1="22" y1="12" x2="2" y2="12"></line><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path><line x1="6" y1="16" x2="6.01" y2="16"></line><line x1="10" y1="16" x2="10.01" y2="16"></line></svg> </div>
+                    <div class="top-menu__title"> Contact Us<i data-feather="chevron-down" class="top-menu__sub-icon"></i> </div>
+                </a>
+                <ul class="top-menu__sub-open">
+                    <li>
+                        <a href="Files/contact.html" class="top-menu">
+                            <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="top-menu__title">SAC Team </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Files/academic.html" class="top-menu">
+                            <div class="top-menu__icon"> <i data-feather="activity"></i> </div>
+                            <div class="top-menu__title"> Academic Office</div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- END: Top Menu -->
+    
+    <!-- BEGIN: Content -->
+    <div class="content">
+        <div class= "mx-6 mt-10 "> 
+            <div class="center-mode carousel__">
+                <div class=" px-2"> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/pic1.JPG" >
+                    </div> 
+                </div> 
+                <div class=" px-2 "> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/DSC_0030.JPG" >
+                    </div> 
+                </div>
+                <div class=" px-2"> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/IMG_6571-min.jpg" >
+                    </div> 
+                </div>
+                <div class=" px-2 "> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/IMG_6863.JPG" >
+                    </div> 
+                </div>  
+                <div class=" px-2 "> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/DSC_0429.JPG" >
+                    </div> 
+                </div> 
+                <div class=" px-2 "> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/DSC_0364.JPG" >
+                    </div> 
+                </div>  
+                <div class=" px-2 "> 
+                    <div class=" rounded-md overflow-hidden"> 
+                        <img src="images/img2.jpg" >
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+        
+        <div class="mb-5 mt-10">
+            <div class="col-span-12 mt-8">
+                <div class="grid grid-cols-12 gap-6 info__">
+                    <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                        <div class="report-box zoom-in">
+                            <div class="box p-5">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart report-box__icon text-theme-10"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> 
+                                    <div class="ml-auto">
+                                        <div class="report-box__indicator bg-theme-9 tooltip cursor-pointer"> 33% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg> </div>
+                                    </div>
+                                </div>
+                                <div class="text-3xl font-bold leading-8 mt-6">100 +</div>
+                                <div class="text-base text-gray-600 mt-1">Companies Visited</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                        <div class="report-box zoom-in">
+                            <div class="box p-5">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card report-box__icon text-theme-11"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg> 
+                                </div>
+                                <div class="text-3xl font-bold leading-8 mt-6">2 + </div>
+                                <div class="text-base text-gray-600 mt-1">Batches passed</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                        <div class="report-box zoom-in">
+                            <div class="box p-5">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor report-box__icon text-theme-12"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg> 
+                                    <div class="ml-auto">
+                                        <div class="report-box__indicator bg-theme-9 tooltip cursor-pointer"> 12% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg> </div>
+                                    </div>
+                                </div>
+                                <div class="text-3xl font-bold leading-8 mt-6">249 +</div>
+                                <div class="text-base text-gray-600 mt-1">Placements</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                        <div class="report-box zoom-in">
+                            <div class="box p-5">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user report-box__icon text-theme-9"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 
+                                    <div class="ml-auto">
+                                        <div class="report-box__indicator bg-theme-9 tooltip cursor-pointer"> 22% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg> </div>
+                                    </div>
+                                </div>
+                                <div class="text-3xl font-bold leading-8 mt-6">1540 +</div>
+                                <div class="text-base text-gray-600 mt-1">Alumni Passed</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-12 gap-9 pb-0 border-t border-theme-25 " id="news">
+            <div class="  intro-y block col-span-12 xl:col-span-8 xl:col-start-1 xl:row-start-1 xxl:col-start-auto xxl:row-start-auto facebook__ ">
+                <div class="">
+                    <div class="intro-x flex items-center h-8">
+                        <h2 class="text-lg font-medium truncate mr-auto">
+                            Messages
+                        </h2>
+                        <button data-carousel="important-notes" data-target="prev" class="tiny-slider-navigator btn px-2 border-gray-400 text-gray-700 dark:text-gray-300 mr-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left w-4 h-4"><polyline points="15 18 9 12 15 6"></polyline></svg> </button>
+                        <button data-carousel="important-notes" data-target="next" class="tiny-slider-navigator btn px-2 border-gray-400 text-gray-700 dark:text-gray-300 mr-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-4 h-4"><polyline points="9 18 15 12 9 6"></polyline></svg> </button>
+                    </div>
+                    <div class="mt-5 intro-x">
+                        <div class="box">
+                            <div class="tns-outer" id="important-notes-ow"><button type="button" data-action="stop"><span class="tns-visually-hidden">stop animation</span>stop</button><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">3</span>  of 3</div><div id="important-notes-mw" class="tns-ovh"><div class="tns-inner" id="important-notes-iw"><div class="tiny-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="important-notes" style="transform: translate3d(-40%, 0px, 0px);">
+                                <div class="p-5 tns-item tns-slide-active" aria-hidden="true" tabindex="-1">
+                                    <div class="flex">
+                                        <div class="mr-5">
+                                            <img class="rounded-full cards_img__ image-fit " src="../images/Porash_pic.jpg">
+                                            <center><div class="text-base font-medium truncate">Prof. Rajat Moona</div>
+                                            <div class="text-gray-500 mt-1">Director</div></center>
+                                        </div>
+                                        <div class="text-gray-600 text-lg mt-1">
+                                            Dear graduating students,<br>
+                                            Warmest congratulations on your well-deserved success!
+                                            Your enthusiastic journey as a student of IIT Bhilai has reached its destination and I am glad that I made a trace in that exciting journey. From being a student of the institute, you have now become the alumnus of IIT Bhilai. Though the status changes, our relationship shall still continue to be the same. Through intense academic training and various other non-academic activities, I hope we were able to shape you as leaders of science and technology. Be prepared for the greater battle for which the nation is looking forward to a great warrior leading the country in its prosperous future.
+                                            The institute remained as a provider for your academic, professional and technological hunger throughout your stay on campus and now the time has come for you to contribute your little penny to the institute. I urge you to provide your support in all possible ways to make the institute a better place of learning for your present and future juniors.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-5 tns-item" id="important-notes-item0" aria-hidden="true" tabindex="-1">
+                                    <div class="flex">
+                                        <div class="mr-5">
+                                            <img class="rounded-full cards_img__ image-fit " src="../images/Porash_pic.jpg">
+                                            <center><div class="text-base font-medium truncate">Prof. Rajat Moona</div>
+                                            <div class="text-gray-500 mt-1">Director</div></center>
+                                        </div>
+                                        <div class="text-gray-600 text-lg mt-1">
+                                            Dear graduating students,<br>
+                                            Warmest congratulations on your well-deserved success!
+                                            Your enthusiastic journey as a student of IIT Bhilai has reached its destination and I am glad that I made a trace in that exciting journey. From being a student of the institute, you have now become the alumnus of IIT Bhilai. Though the status changes, our relationship shall still continue to be the same. Through intense academic training and various other non-academic activities, I hope we were able to shape you as leaders of science and technology. Be prepared for the greater battle for which the nation is looking forward to a great warrior leading the country in its prosperous future.
+                                            The institute remained as a provider for your academic, professional and technological hunger throughout your stay on campus and now the time has come for you to contribute your little penny to the institute. I urge you to provide your support in all possible ways to make the institute a better place of learning for your present and future juniors.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-5 tns-item " id="important-notes-item1">
+                                    <div class="flex">
+                                        <div class="mr-5">
+                                            <img class="rounded-full cards_img__ image-fit " src="../images/Porash_pic.jpg">
+                                            <center><div class="text-base font-medium truncate">Prof. Rajat Moona</div>
+                                            <div class="text-gray-500 mt-1">Director</div></center>
+                                        </div>
+                                        <div class="text-gray-600 text-lg mt-1">
+                                            Dear graduating students,<br>
+                                            Warmest congratulations on your well-deserved success!
+                                            Your enthusiastic journey as a student of IIT Bhilai has reached its destination and I am glad that I made a trace in that exciting journey. From being a student of the institute, you have now become the alumnus of IIT Bhilai. Though the status changes, our relationship shall still continue to be the same. Through intense academic training and various other non-academic activities, I hope we were able to shape you as leaders of science and technology. Be prepared for the greater battle for which the nation is looking forward to a great warrior leading the country in its prosperous future.
+                                            The institute remained as a provider for your academic, professional and technological hunger throughout your stay on campus and now the time has come for you to contribute your little penny to the institute. I urge you to provide your support in all possible ways to make the institute a better place of learning for your present and future juniors.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="  intro-y block col-span-12 md:col-span-4 sm:col-span-6 lg:col-span-4 facebook__ ">
+                <div class="rounded-md relative ml-5 mt-1 facebook__">
+                    <div id="fbplug"  class="fb-page fb_iframe_widget " data-href="https://www.facebook.com/sac.iitbh/" data-tabs="timeline"  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell%2F%3Ffref%3Dts&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline"><span style="vertical-align: bottom;"><iframe name="f61c57c02e8828"data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=1066517953466827&amp;container_width=400&amp;height=436&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fsac.iitbh%2F%3Ffref%3Dts&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" style="border: none; visibility: visible; width: 100%; height: 550px;" class=""></iframe></span></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="page-footer mt-10" id="connect" >
+        <div class="container">
+          <div style="padding-top: 20px; padding-bottom: 15px;">
+            <div class="sm:col-span-12 md:col-span-6 foot ">
+                <center><h5 class="text-white text-lg font-medium">Address</h5>
+              <p class="grey-text text-lighten-4">Student Alumni Cell IIT Bhilai,<br>Indian Institute of Technology Bhilai,<br>GEC Campus, Sejbahar,
+                    <br>Raipur, Chattisgarh - 492015,  </p></center>
+            </div>
+        </div>
+    
+        <div class="footer-copyright">
+          <div class="container">
+            <center><h6 class=" mt-0 pb-5 pr-5 pl-5"> © All the copyrights are reserved by the Student Alumni Cell IIT Bhilai</h6></center>
+          </div>
+        </div>
+    </footer>
+    <!-- END: Content -->
+    <!-- BEGIN: Dark Mode Switcher-->
+    <div class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box dark:bg-dark-2 border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10"  onclick="myFunction()">
+        <div class="mr-4 text-gray-700 dark:text-gray-300">Dark Mode</div>
+        <div  href="javascript:;" class="dark-mode-switcher__toggle border show-code form-check-switch" ></div>
+    </div>
+    <!-- END: Dark Mode Switcher-->
+    <!-- BEGIN: JS Assets-->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG7gNHAhDzgYmq4-EHvM4bqW1DNj2UCuk&amp;libraries=places"></script>
+    <script src="Files/script.js"></script>
+    <script src="Files/mine.js"></script>
+    <!-- END: JS Assets-->
+    
+</body>
+
+</html>
