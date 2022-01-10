@@ -1,0 +1,354 @@
+@media only screen and (min-width: 0) {
+    html {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+::-webkit-scrollbar-track {
+    background: none;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+  }
+hr{
+    width: 20%;
+    margin: auto 0 0rem 0 ;
+    border-color:#00c4b5;
+    background-color: #00c4b5;
+}
+.top-nav{
+    background-color: #1C3FAA;
+}
+.dark .top-nav{
+    background-color: rgba(35, 42, 59, var(--tw-bg-opacity));
+}
+.head__{
+    color: #1C3FAA;
+    border:3px groove;
+    padding:7px;
+    border-radius: 6px;
+}
+.acad__{
+    color: #1C3FAA;
+    border:3px ridge;
+    padding:7px;
+    border-radius: 6px;
+}
+.main_logo__{
+    width:40px;
+}
+.icons__>li{
+    margin: 0 12px 0 0;
+}
+
+.info__{
+    margin-top: 4rem;
+}
+.news__{
+    height:500px;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 3.5rem
+}
+
+.facebook__{
+    margin-left: 9%;
+    margin-right:1rem;
+}
+.cards_img__{
+    height:160px;
+    width:160px;
+}
+.gallery_img__{
+    height:250px;
+    width:280px;
+}
+.gallery_img__ img{
+    border-radius: 0.7rem;
+}
+.multi_car__{
+    height:200px;
+}
+.multi_car__ img{
+    border-radius: 0.7rem;
+}
+.carousel__ img{
+    border-radius: 0.7rem;
+}
+.lounge__{
+    width: 100%;
+    height: 98%;
+    border-radius: 10px;
+}
+.para{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.heading_{
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.text_lounge__{
+    border: solid;
+    border-radius: 5px;
+    display:inline-block;
+    padding-top:2px;
+    margin:3px;
+    padding-right:20px;
+    padding-left:20px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.pos .pos-image:before {
+    content: "";
+    padding-top: 100%;
+    width: 100%;
+    display: block
+}
+
+.pos .pos-image .pos-image__preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.pos .pos-image .pos-image__preview img {
+    border-radius: .375rem
+}
+.pos .pos__tabs a.active {
+    --bg-opacity: 1; 
+    background-color: #1c3faa; 
+    background-color: rgba(28,63,170,var(--bg-opacity));
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
+}
+.pos .pos__ticket .pos__ticket__item-name {
+    max-width: 50%
+}
+.pos .pos__box {
+    height: 780px
+}
+.nav-tabs .active {
+    border-bottom-width: 2px;
+    --border-opacity:1;
+    background: #1c3faa;
+    color : white;
+    border-color: #1c3faa;
+    border-color: rgba(28,63,170,var(--border-opacity));
+    font-weight: 500
+}
+.tab-content .tab-content__pane {
+    top: -9999px;
+    left: -9999px;
+    transition: visibility 0s linear .6s, opacity .6s 0s;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0
+}
+
+.tab-content .tab-content__pane.active {
+    transition: visibility 0s linear 0s, opacity .6s 0s;
+    position: static;
+    visibility: visible;
+    opacity: 1
+}  
+@media screen and (max-width:420px){
+    .cell-text{
+        font-size: 10px;
+    }
+} 
+@media screen and (max-width: 768px) {
+    .para{
+        font-size:medium;
+    }
+    .event_car__{
+        display: none;
+    }
+} 
+@media screen and (max-width: 1023px){
+    .top-nav{
+        display: none;
+    }
+    .vanish{
+        display : none;
+    }
+    .top_logo {
+        display: none;
+    }
+    .top-bar-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1280px){
+    .facebook__{
+        display: none;
+        margin-left: 1rem;
+        margin-right:1rem;
+    }
+    .md:\vanish{
+        display: none;
+    }
+}
+@media (min-width :1117px){
+    .dot_up\:hidden {
+        display: none
+    }
+}
+@media (min-width:1440px){
+    .xlg\:hidden{
+        display: none;
+    }
+}
+html{
+    scroll-behavior: smooth;
+  }
+  .page_title{  
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .uppernav{
+    padding-top: 0.7rem;
+  }
+  .icon {
+    margin-left:12rem !important;
+  }
+  .login{
+    margin: auto 2rem;
+     border-radius: 0.4rem;
+     font-weight: 600;
+    letter-spacing: 1.3px;
+  }
+  i{
+    margin: auto 0rem;
+    padding: 0;
+  }
+  .nav-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+    .nav-items{
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      margin: 0;
+    }
+    .ss{
+      margin-top: 4.9rem;
+      z-index: -1;
+    }
+  .msg-head{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem; 
+  }
+  .layout_head{
+    font-weight: 750;
+    letter-spacing: 1px;
+    color:#23284c;
+    font-size: 1.3rem;
+  }
+  .layout_scroll{
+    overflow-y: scroll;
+    height: 480px;
+  }
+  .calendar{
+  
+    border:1px solid #312a50;
+    text-align: center;
+    padding: 0 !important;
+    border-radius: 0.3rem;
+    width: 19%;
+    margin: auto;
+  }
+  .calendar_stripe{
+    height: 0.8rem;
+    background-color: #23284c;
+    margin: 0 !important;
+  
+  }
+  .calendar_date{
+    font-weight: 800;
+    margin: 0.2rem;
+  }
+  .calendar_month{
+    font-weight: 800;
+    margin:0;
+    margin-bottom: 0rem;
+    border-bottom: 3.5px solid #23284c;
+  }
+  .dark .page-footer{
+    background-color:#293145;
+    color:#fff;
+    border-radius: 15px;
+  }
+  .page-footer{
+    background-color:rgb(5, 13, 80);
+    color:#fff;
+    border-radius: 15px;
+  }
+  footer li{
+    margin-left: 1rem;
+  }
+      @media only screen and (max-width: 992px) {
+    .show_med_and_down {
+      display: block !important;
+    }
+  }
+   @media only screen and (max-width: 1024px) {
+    #logo{
+      width: 220px !important;
+    }
+    #logo img{
+      width: 65% !important;
+    }
+    .calendar{
+      width: 25% !important;
+  
+    }
+  }
+  @media only screen and (max-width: 1244px) {
+    .logo__{
+        width:300px;
+    }
+    .logo__ img{
+        width:100px;
+    }
+  }
+@media only screen and (max-width: 1440px) {
+    #logo{
+      width: 300px !important;
+    }
+    #logo img{
+      width: 100% !important;
+    }
+  }
