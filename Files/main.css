@@ -192,6 +192,9 @@ hr{
     .event_car__{
         display: none;
     }
+    .vanish-calendar{
+      display: none;
+    }
 } 
 @media screen and (max-width: 1023px){
     .top-nav{
